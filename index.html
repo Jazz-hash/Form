@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      .email-icon {
+        width: 200px;
+        height: 200px;
+      }
+      .main {
+        padding: 100px;
+      }
+      .button-main {
+        height: 50px;
+      }
+      .extra {
+          display: flex;
+        }
+        .second {
+          display: none;
+        }
+        .right {
+          justify-content: flex-end;
+                  }
+      @media screen and (max-width: 768px) {
+        .email-icon {
+          width: 150px;
+          height: 150px;
+        }
+        .main {
+          padding: 100px 50px;
+        }
+        .button-main {
+          height: 40px;
+        }
+        .extra {
+          display: none;
+        }
+        .second {
+          display: flex;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-image: url('./Other\ Images/Background image main.png');" >
+    <div style=" background-color: rgba(64, 167, 234, 0.8);">
+    <img
+      src="./Other Images/iClean-Dog-Wash-Logo.png"
+      style="position: absolute; top: 0; left: 0"
+      height="100px"
+    />
+    <div class="container-fluid main" style="">
+      <div class="container-fluid">
+        <div class="container-fluid text-center" style="padding: 0; margin: 0">
+          <img src="./Other Images/Dog Image.png" width="250px" />
+          <div
+            class="container-fluid"
+            style="
+              height: 150px;
+              margin-top: -40px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #015ea3;
+            "
+          >
+            <h4 style="margin-top: -50px" class="text-white">
+              Quote request Notification
+            </h4>
+          </div>
+        </div>
+        <div class="container-fluid p-3 bg-light">
+          <div class="row">
+            <div class="col-4 extra right">
+              <div  style="float: right; text-align: center">
+                <img src="./iCons/Date.png" width="30px" />
+                <p>
+                  Date <br />
+                  {data_dmy}
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="text-center" style="margin-top: -80px">
+                <img
+                  src="./Other Images/Image Circle 1.png"
+                  alt="image"
+                  class="email-icon"
+                />
+              </div>
+            </div>
+            <div class="col-4 extra">
+              <div style="float: left; text-align: center">
+                <img src="./iCons/Time.png" width="30px" />
+                <p>
+                  Time <br />
+                  {Time:20}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row second">
+            <div class="col-6">
+              <div style="float: right; text-align: center">
+                <img src="./iCons/Date.png" width="30px" />
+                <p>
+                  Date <br />
+                  {data_dmy}
+                </p>
+              </div>
+            </div>
+           
+            <div class="col-6">
+              <div style="float: left; text-align: center">
+                <img src="./iCons/Time.png" width="30px" />
+                <p>
+                  Time <br />
+                  {Time:20}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid pl-5 pr-5 bg-light">
+          <br />
+          <br />
+          <form>
+            <div class="form-row align-items-center">
+              <div class="col-sm-12 col-md-9 m-auto">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend w-25">
+                    <div
+                      class="input-group-text w-100"
+                      style="background-color: #e5f6fd; color: #015ea3"
+                    >
+                      <img
+                        src="./iCons/1.png"
+                        height="25px"
+                        style="margin-right: 10px"
+                      />
+                      Full Name
+                    </div>
+                  </div>
+                  <input
+                  disabled
+                    type="text"
+                    class="form-control"
+                    id="inlineFormInputGroup"
+                    placeholder="{First Name:13}{Last Name:14}"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 m-auto">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend w-25">
+                    <div
+                      class="input-group-text w-100"
+                      style="background-color: #e5f6fd; color: #015ea3"
+                    >
+                      <img
+                        src="./iCons/2.png"
+                        height="25px"
+                        style="margin-right: 10px"
+                      />
+                      Phone Number
+                    </div>
+                  </div>
+                  <input
+                  disabled
+                    type="text"
+                    class="form-control"
+                    id="inlineFormInputGroup"
+                    placeholder="{Phone Number:4}"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 m-auto">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend w-25">
+                    <div
+                      class="input-group-text w-100"
+                      style="background-color: #e5f6fd; color: #015ea3"
+                    >
+                      <img
+                        src="./iCons/3.png"
+                        height="25px"
+                        style="margin-right: 10px"
+                      />
+                      Email
+                    </div>
+                  </div>
+                  <input
+                  disabled
+                    type="text"
+                    class="form-control"
+                    id="inlineFormInputGroup"
+                    placeholder="{Email:5}"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 m-auto">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend w-25">
+                    <div
+                      class="input-group-text w-100"
+                      style="background-color: #e5f6fd; color: #015ea3"
+                    >
+                      <img
+                        src="./iCons/4.png"
+                        height="25px"
+                        style="margin-right: 10px"
+                      />
+                      City
+                    </div>
+                  </div>
+                  <input
+                  disabled
+                    type="text"
+                    class="form-control"
+                    id="inlineFormInputGroup"
+                    placeholder="{City:7}"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 m-auto">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend w-25">
+                    <div
+                      class="input-group-text w-100"
+                      style="background-color: #e5f6fd; color: #015ea3"
+                    >
+                      <img
+                        src="./iCons/5.png"
+                        height="25px"
+                        style="margin-right: 10px"
+                      />
+                      State
+                    </div>
+                  </div>
+                  <input
+                  disabled
+                    type="text"
+                    class="form-control"
+                    id="inlineFormInputGroup"
+                    placeholder="{State:8}"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 m-auto">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend w-25">
+                    <div
+                      class="input-group-text w-100"
+                      style="background-color: #e5f6fd; color: #015ea3"
+                    >
+                      <img
+                        src="./iCons/6.png"
+                        height="25px"
+                        style="margin-right: 10px"
+                      />
+                      Country
+                    </div>
+                  </div>
+                  <input
+                  disabled
+                    type="text"
+                    class="form-control"
+                    id="inlineFormInputGroup"
+                    placeholder="{Country:11}"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 m-auto">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend w-25">
+                    <div
+                      class="input-group-text w-100"
+                      style="background-color: #e5f6fd; color: #015ea3"
+                    >
+                      <img
+                        src="./iCons/7.png"
+                        height="25px"
+                        style="margin-right: 10px"
+                      />
+                      Type of Business
+                    </div>
+                  </div>
+                  <input
+                  disabled
+
+                    type="text"
+                    class="form-control"
+                    id="inlineFormInputGroup"
+                    placeholder="{Type of Business:3}"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 m-auto">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend w-25">
+                    <div
+                      class="input-group-text w-100"
+                      style="background-color: #e5f6fd; color: #015ea3"
+                    >
+                      <img
+                        src="./iCons/8.png"
+                        height="25px"
+                        style="margin-right: 10px"
+                      />
+                      How did you you hear about us?
+                    </div>
+                  </div>
+                  <input
+                  disabled
+                    type="text"
+                    class="form-control"
+                    id="inlineFormInputGroup"
+                    placeholder="{How did you you hear about us?:6}"
+                  />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-9 m-auto">
+                <div class="p-1" style="display: flex; justify-content: center;
+                align-items: center; background-color: #E5F6FD; color:
+                #015EA3;"">
+                <label class="pt-2">Additional Comments</label>
+              </div>
+              <div class="input-group mb-2">
+                <textarea
+                  disabled
+
+                  type="text"
+                  class="form-control"
+                  rows="5"
+                  placeholder="{Question / Comment:10}"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-9 m-auto mt-3 mb-4 text-center">
+              <img src="./Other Images/Button1.png" class="button-main" />
+              <br />
+              <small>Google Sheets Quotes CRM</small>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
