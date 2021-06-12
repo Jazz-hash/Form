@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -28,14 +27,7 @@
       .button-main {
         height: 50px;
       }
-      .extra {
-          display: flex;
-        }
-        .second {
-          display: none;
-        }
-        .right {
-          justify-content: flex-end;
+
                   }
       @media screen and (max-width: 768px) {
         .email-icon {
@@ -48,319 +40,311 @@
         .button-main {
           height: 40px;
         }
-        .extra {
-          display: none;
-        }
-        .second {
-          display: flex;
-        }
       }
     </style>
   </head>
-  <body style="background-image: url('./Other\ Images/Background image main.png');" >
-    <div style=" background-color: rgba(64, 167, 234, 0.8);">
-    <img
-      src="./Other Images/iClean-Dog-Wash-Logo.png"
-      style="position: absolute; top: 0; left: 0"
-      height="100px"
-    />
-    <div class="container-fluid main" style="">
-      <div class="container-fluid">
-        <div class="container-fluid text-center" style="padding: 0; margin: 0">
-          <img src="./Other Images/Dog Image.png" width="250px" />
-          <div
-            class="container-fluid"
-            style="
-              height: 150px;
-              margin-top: -40px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              background-color: #015ea3;
-            "
-          >
-            <h4 style="margin-top: -50px" class="text-white">
-              Quote request Notification
-            </h4>
-          </div>
-        </div>
-        <div class="container-fluid p-3 bg-light">
-          <div class="row">
-            <div class="col-4 extra right">
-              <div  style="float: right; text-align: center">
-                <img src="./iCons/Date.png" width="30px" />
-                <p>
-                  Date <br />
-                  {data_dmy}
-                </p>
+  <body style="width: 800px; margin: 20px auto">
+    <div
+      style="background-image: url('./Other\ Images/Background image main.png')"
+    >
+      <div
+        style="background-color: rgba(64, 167, 234, 0.8); position: relative"
+      >
+        <img
+          src="./Other Images/iClean-Dog-Wash-Logo.png"
+          style="position: absolute; top: 0; left: 0"
+          height="100px"
+        />
+        <div class="container-fluid main" style="">
+          <div class="container-fluid">
+            <div
+              class="container-fluid text-center"
+              style="padding: 0; margin: 0"
+            >
+              <img src="./Other Images/Dog Image.png" width="250px" />
+              <div
+                class="container-fluid"
+                style="
+                  height: 150px;
+                  margin-top: -40px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  background-color: #015ea3;
+                "
+              >
+                <h4 style="margin-top: -50px" class="text-white">
+                  Quote request Notification
+                </h4>
               </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-              <div class="text-center" style="margin-top: -80px">
-                <img
-                  src="./Other Images/Image Circle 1.png"
-                  alt="image"
-                  class="email-icon"
-                />
-              </div>
-            </div>
-            <div class="col-4 extra">
-              <div style="float: left; text-align: center">
-                <img src="./iCons/Time.png" width="30px" />
-                <p>
-                  Time <br />
-                  {Time:20}
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row second">
-            <div class="col-6">
-              <div style="float: right; text-align: center">
-                <img src="./iCons/Date.png" width="30px" />
-                <p>
-                  Date <br />
-                  {data_dmy}
-                </p>
-              </div>
-            </div>
-           
-            <div class="col-6">
-              <div style="float: left; text-align: center">
-                <img src="./iCons/Time.png" width="30px" />
-                <p>
-                  Time <br />
-                  {Time:20}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid pl-5 pr-5 bg-light">
-          <br />
-          <br />
-          <form>
-            <div class="form-row align-items-center">
-              <div class="col-sm-12 col-md-9 m-auto">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend w-25">
-                    <div
-                      class="input-group-text w-100"
-                      style="background-color: #e5f6fd; color: #015ea3"
-                    >
-                      <img
-                        src="./iCons/1.png"
-                        height="25px"
-                        style="margin-right: 10px"
-                      />
-                      Full Name
-                    </div>
+            <div class="container-fluid p-3 bg-light">
+              <div class="row">
+                <div class="col-12">
+                  <div class="text-center" style="margin-top: -80px">
+                    <img
+                      src="./Other Images/Image Circle 1.png"
+                      alt="image"
+                      class="email-icon"
+                    />
                   </div>
-                  <input
-                  disabled
-                    type="text"
-                    class="form-control"
-                    id="inlineFormInputGroup"
-                    placeholder="{First Name:13}{Last Name:14}"
-                  />
                 </div>
               </div>
-              <div class="col-sm-12 col-md-9 m-auto">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend w-25">
-                    <div
-                      class="input-group-text w-100"
-                      style="background-color: #e5f6fd; color: #015ea3"
-                    >
-                      <img
-                        src="./iCons/2.png"
-                        height="25px"
-                        style="margin-right: 10px"
-                      />
-                      Phone Number
-                    </div>
+              <div class="row">
+                <div class="col-5">
+                  <div style="float: right; text-align: center">
+                    <img src="./iCons/Date.png" width="30px" />
+                    <p>
+                      Date <br />
+                      {data_dmy}
+                    </p>
                   </div>
-                  <input
-                  disabled
-                    type="text"
-                    class="form-control"
-                    id="inlineFormInputGroup"
-                    placeholder="{Phone Number:4}"
-                  />
                 </div>
-              </div>
-              <div class="col-sm-12 col-md-9 m-auto">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend w-25">
-                    <div
-                      class="input-group-text w-100"
-                      style="background-color: #e5f6fd; color: #015ea3"
-                    >
-                      <img
-                        src="./iCons/3.png"
-                        height="25px"
-                        style="margin-right: 10px"
-                      />
-                      Email
-                    </div>
-                  </div>
-                  <input
-                  disabled
-                    type="text"
-                    class="form-control"
-                    id="inlineFormInputGroup"
-                    placeholder="{Email:5}"
-                  />
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-9 m-auto">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend w-25">
-                    <div
-                      class="input-group-text w-100"
-                      style="background-color: #e5f6fd; color: #015ea3"
-                    >
-                      <img
-                        src="./iCons/4.png"
-                        height="25px"
-                        style="margin-right: 10px"
-                      />
-                      City
-                    </div>
-                  </div>
-                  <input
-                  disabled
-                    type="text"
-                    class="form-control"
-                    id="inlineFormInputGroup"
-                    placeholder="{City:7}"
-                  />
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-9 m-auto">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend w-25">
-                    <div
-                      class="input-group-text w-100"
-                      style="background-color: #e5f6fd; color: #015ea3"
-                    >
-                      <img
-                        src="./iCons/5.png"
-                        height="25px"
-                        style="margin-right: 10px"
-                      />
-                      State
-                    </div>
-                  </div>
-                  <input
-                  disabled
-                    type="text"
-                    class="form-control"
-                    id="inlineFormInputGroup"
-                    placeholder="{State:8}"
-                  />
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-9 m-auto">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend w-25">
-                    <div
-                      class="input-group-text w-100"
-                      style="background-color: #e5f6fd; color: #015ea3"
-                    >
-                      <img
-                        src="./iCons/6.png"
-                        height="25px"
-                        style="margin-right: 10px"
-                      />
-                      Country
-                    </div>
-                  </div>
-                  <input
-                  disabled
-                    type="text"
-                    class="form-control"
-                    id="inlineFormInputGroup"
-                    placeholder="{Country:11}"
-                  />
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-9 m-auto">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend w-25">
-                    <div
-                      class="input-group-text w-100"
-                      style="background-color: #e5f6fd; color: #015ea3"
-                    >
-                      <img
-                        src="./iCons/7.png"
-                        height="25px"
-                        style="margin-right: 10px"
-                      />
-                      Type of Business
-                    </div>
-                  </div>
-                  <input
-                  disabled
 
-                    type="text"
-                    class="form-control"
-                    id="inlineFormInputGroup"
-                    placeholder="{Type of Business:3}"
-                  />
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-9 m-auto">
-                <div class="input-group mb-2">
-                  <div class="input-group-prepend w-25">
-                    <div
-                      class="input-group-text w-100"
-                      style="background-color: #e5f6fd; color: #015ea3"
-                    >
-                      <img
-                        src="./iCons/8.png"
-                        height="25px"
-                        style="margin-right: 10px"
-                      />
-                      How did you you hear about us?
-                    </div>
+                <div class="col-2"></div>
+                <div class="col-5">
+                  <div style="float: left; text-align: center">
+                    <img src="./iCons/Time.png" width="30px" />
+                    <p>
+                      Time <br />
+                      {Time:20}
+                    </p>
                   </div>
-                  <input
-                  disabled
-                    type="text"
-                    class="form-control"
-                    id="inlineFormInputGroup"
-                    placeholder="{How did you you hear about us?:6}"
-                  />
                 </div>
-              </div>
-              <div class="col-sm-12 col-md-9 m-auto">
-                <div class="p-1" style="display: flex; justify-content: center;
-                align-items: center; background-color: #E5F6FD; color:
-                #015EA3;"">
-                <label class="pt-2">Additional Comments</label>
-              </div>
-              <div class="input-group mb-2">
-                <textarea
-                  disabled
-
-                  type="text"
-                  class="form-control"
-                  rows="5"
-                  placeholder="{Question / Comment:10}"
-                ></textarea>
               </div>
             </div>
-            <div class="col-sm-12 col-md-9 m-auto mt-3 mb-4 text-center">
-              <img src="./Other Images/Button1.png" class="button-main" />
+            <div class="container-fluid bg-light">
               <br />
-              <small>Google Sheets Quotes CRM</small>
+              <br />
+              <form>
+                <div class="form-row align-items-center">
+                  <div class="col-12 m-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend" style="width: 40%">
+                        <div
+                          class="input-group-text w-100"
+                          style="background-color: #e5f6fd; color: #015ea3"
+                        >
+                          <img
+                            src="./iCons/1.png"
+                            height="25px"
+                            style="margin-right: 10px"
+                          />
+                          Full Name
+                        </div>
+                      </div>
+                      <input
+                        disabled
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroup"
+                        placeholder="{First Name:13}{Last Name:14}"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 m-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend" style="width: 40%">
+                        <div
+                          class="input-group-text w-100"
+                          style="background-color: #e5f6fd; color: #015ea3"
+                        >
+                          <img
+                            src="./iCons/2.png"
+                            height="25px"
+                            style="margin-right: 10px"
+                          />
+                          Phone Number
+                        </div>
+                      </div>
+                      <input
+                        disabled
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroup"
+                        placeholder="{Phone Number:4}"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 m-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend" style="width: 40%">
+                        <div
+                          class="input-group-text w-100"
+                          style="background-color: #e5f6fd; color: #015ea3"
+                        >
+                          <img
+                            src="./iCons/3.png"
+                            height="25px"
+                            style="margin-right: 10px"
+                          />
+                          Email
+                        </div>
+                      </div>
+                      <input
+                        disabled
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroup"
+                        placeholder="{Email:5}"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 m-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend" style="width: 40%">
+                        <div
+                          class="input-group-text w-100"
+                          style="background-color: #e5f6fd; color: #015ea3"
+                        >
+                          <img
+                            src="./iCons/4.png"
+                            height="25px"
+                            style="margin-right: 10px"
+                          />
+                          City
+                        </div>
+                      </div>
+                      <input
+                        disabled
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroup"
+                        placeholder="{City:7}"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 m-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend" style="width: 40%">
+                        <div
+                          class="input-group-text w-100"
+                          style="background-color: #e5f6fd; color: #015ea3"
+                        >
+                          <img
+                            src="./iCons/5.png"
+                            height="25px"
+                            style="margin-right: 10px"
+                          />
+                          State
+                        </div>
+                      </div>
+                      <input
+                        disabled
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroup"
+                        placeholder="{State:8}"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 m-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend" style="width: 40%">
+                        <div
+                          class="input-group-text w-100"
+                          style="background-color: #e5f6fd; color: #015ea3"
+                        >
+                          <img
+                            src="./iCons/6.png"
+                            height="25px"
+                            style="margin-right: 10px"
+                          />
+                          Country
+                        </div>
+                      </div>
+                      <input
+                        disabled
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroup"
+                        placeholder="{Country:11}"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 m-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend" style="width: 40%">
+                        <div
+                          class="input-group-text w-100"
+                          style="background-color: #e5f6fd; color: #015ea3"
+                        >
+                          <img
+                            src="./iCons/7.png"
+                            height="25px"
+                            style="margin-right: 10px"
+                          />
+                          Type of Business
+                        </div>
+                      </div>
+                      <input
+                        disabled
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroup"
+                        placeholder="{Type of Business:3}"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 m-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend" style="width: 40%">
+                        <div
+                          class="input-group-text w-100"
+                          style="
+                            background-color: #e5f6fd;
+                            color: #015ea3;
+                            text-align: left;
+                          "
+                        >
+                          <img
+                            src="./iCons/8.png"
+                            height="25px"
+                            style="margin-right: 10px"
+                          />
+                          How did you you hear <br />
+                          about us?
+                        </div>
+                      </div>
+                      <textarea
+                        disabled
+                        rows="2"
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroup"
+                        placeholder="{How did you you hear about us?:6}"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12 m-auto">
+                    <div class="p-1" style="display: flex; justify-content:
+                    center; align-items: center; background-color: #E5F6FD;
+                    color: #015EA3;"">
+                    <label class="pt-2">Additional Comments</label>
+                  </div>
+                  <div class="input-group mb-2">
+                    <textarea
+                      disabled
+                      type="text"
+                      class="form-control"
+                      rows="5"
+                      placeholder="{Question / Comment:10}"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="col-12 m-auto mt-3 mb-5 text-center">
+                  <img src="./Other Images/Button1.png" class="button-main" />
+                  <br />
+                  <small class="">Google Sheets Quotes CRM</small>
+                  <p></p>
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
